@@ -1,0 +1,10 @@
+Introduction
+In this blog, you will learn how to perform inference on JPEG images using the gRPC API in OpenVINO Model Server. 
+Model servers play an important role in smoothly bringing models from development to production. 
+They serve models via network endpoints and expose APIs for interacting with them. 
+Once a model is served, a set of functions are required to call the API from our application.
+OpenVINO™ Model Server and TensorFlow Serving share the same frontend API, meaning we can use the same code to interact with both. 
+For Python developers, the typical starting point is using the tensorflow-serving-api pip package. 
+Unfortunately, since this package includes TensorFlow as a dependency, its footprint is quite large.
+
+
